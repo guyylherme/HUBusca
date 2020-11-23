@@ -9,7 +9,7 @@ const RepoItem = ({repo}) => (
         <div className='teste'>
             <p>Nome: {repo.full_name}</p>
             <p>Login: {repo.owner.login}</p>
-            <p>Localização: {repo.owner.location}</p>
+            <p>Criação: {repo.created_at}</p>
         </div>
     </a>
 )
